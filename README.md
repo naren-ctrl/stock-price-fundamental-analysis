@@ -81,11 +81,23 @@ Due to data availability, complete analysis was successfully performed for **TCS
 
 Python 3.9+
 ├── pandas - Data manipulation and analysis
+
+
 ├── numpy - Numerical computations
+
+
 ├── scikit-learn - Linear regression, standardization
+
+
 ├── matplotlib - Static visualizations
+
+
 ├── seaborn - Statistical visualizations
+
+
 ├── openpyxl - Excel file handling
+
+
 └── fpdf - PDF report generation
 text
 
@@ -168,4 +180,5 @@ start reports/
 
 # Mac/Linux
 open output/
+
 open reports/
