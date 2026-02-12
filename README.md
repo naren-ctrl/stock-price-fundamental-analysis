@@ -107,25 +107,59 @@ text
 stock-analysis-assignment/
 │
 ├── 📄 Intern test 2 - correlation regression - Copy.xls # Original data
+
+
 ├── 📄 stock_analysis.py # Main analysis script
+
+
 ├── 📄 create_pdf_report_final.py # PDF report generator
+
+
 ├── 📄 README.md # This file
 │
 ├── 📁 output/ # Generated outputs
+
+
 │ ├── 📊 correlation_heatmap.png # Correlation matrix
+
+
 │ ├── 📊 company_correlations.png # Company-wise correlations
+
+
 │ ├── 📊 regression_coefficients.png # Regression coefficients
+
+
 │ ├── 📊 r_squared_comparison.png # Model fit comparison
+
+
 │ ├── 📊 pvalue_heatmap.png # Statistical significance
+
+
 │ ├── 📄 overall_correlation_matrix.csv # CSV: correlation matrix
+
+
 │ ├── 📄 company_correlations.csv # CSV: company correlations
+
+
 │ ├── 📄 regression_summary.csv # CSV: regression results
+
+
 │ ├── 📄 coefficients.csv # CSV: coefficients
+
+
 │ ├── 📄 pvalues.csv # CSV: p-values
+
+
 │ └── 📄 top_3_significant.csv # CSV: top 3 variables
+
+
 │
 └── 📁 reports/ # Reports
+
+
 ├── 📄 analysis_summary.txt # Text summary
+
+
 └── 📄 Stock_Price_Analysis_Final.pdf # Complete PDF report
 text
 
@@ -182,3 +216,4 @@ start reports/
 open output/
 
 open reports/
+
