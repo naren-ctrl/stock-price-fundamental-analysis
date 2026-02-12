@@ -1,0 +1,7 @@
+,Avg_Stock_Price,Sales_Growth,EBITDA_Growth,PAT_Growth,EBITDA_Margin_Change,PAT_Margin_Change
+Avg_Stock_Price,1.0,-0.15,-0.174,-0.31,0.005,-0.047
+Sales_Growth,-0.15,1.0,0.183,0.391,-0.859,-0.835
+EBITDA_Growth,-0.174,0.183,1.0,0.201,0.178,-0.04
+PAT_Growth,-0.31,0.391,0.201,1.0,-0.269,-0.056
+EBITDA_Margin_Change,0.005,-0.859,0.178,-0.269,1.0,0.817
+PAT_Margin_Change,-0.047,-0.835,-0.04,-0.056,0.817,1.0

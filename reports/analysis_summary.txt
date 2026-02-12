@@ -1,0 +1,50 @@
+================================================================================
+STOCK PRICE VS FUNDAMENTALS ANALYSIS - SUMMARY REPORT
+================================================================================
+
+Analysis Date: 2026-02-12 20:58:56
+
+================================================================================
+PART 1: CORRELATION ANALYSIS
+================================================================================
+
+Overall Correlation with Stock Price:
+Avg_Stock_Price         1.000
+EBITDA_Margin_Change    0.005
+PAT_Margin_Change      -0.047
+Sales_Growth           -0.150
+EBITDA_Growth          -0.174
+PAT_Growth             -0.310
+Name: Avg_Stock_Price, dtype: float64
+
+Company-wise Correlations:
+       Sales_Growth  EBITDA_Growth  PAT_Growth  EBITDA_Margin_Change  PAT_Margin_Change
+TCS          -0.532         -0.313      -0.451                -0.231              0.031
+INFY         -0.383         -0.281      -0.661                 0.121             -0.267
+WIPRO        -0.241         -0.644      -0.430                -0.154             -0.105
+TECHM        -0.301         -0.364      -0.423                 0.182              0.247
+
+================================================================================
+PART 2: REGRESSION ANALYSIS
+================================================================================
+
+R-squared Values:
+         R_Squared  Adj_R_Squared
+Company                          
+TCS         0.4184         0.1947
+INFY        0.4823         0.2831
+WIPRO       0.4683         0.2637
+TECHM       0.2724        -0.0075
+
+================================================================================
+PART 3: TOP 3 MOST SIGNIFICANT VARIABLES
+================================================================================
+
+Company      Variable  Coefficient  P_Value
+   INFY    PAT_Growth  -749.634211 0.002080
+  WIPRO EBITDA_Growth   -26.167755 0.002896
+    TCS  Sales_Growth -1825.528968 0.019093
+
+================================================================================
+ANALYSIS COMPLETED SUCCESSFULLY
+================================================================================
